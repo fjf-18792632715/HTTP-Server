@@ -48,7 +48,7 @@ public class HttpServer {
         initializeServletObject();
     }
 
-    public static final String WEBAPPS_BASE = "E:\\比特科技\\java实习班\\IDEA2020\\HTTP-Server\\webapps";
+    public static final String WEBAPPS_BASE = "E:\\IDEA2020\\java-object\\HTTP-Server\\webapps";
     public static final List<Context> contextList = new ArrayList<>();
     // 目录扫描( 获取所有的存在的 Context 添加到 contextList 中 )（有：dictionary、object1、object2 应用）
     private static void scanContexts() {

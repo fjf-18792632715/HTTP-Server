@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SessionUtil {
-    public static final String BASE_SESSION = "E:\\比特科技\\java实习班\\IDEA2020\\HTTP-Server\\src\\com\\fjf\\Tomcat\\session";
+    public static final String BASE_SESSION = "E:\\IDEA2020\\java-object\\HTTP-Server\\src\\com\\fjf\\Tomcat\\session";
 
     public static Map<String, Object> loadSession(String sessionID){
         File sessionRoot = new File(BASE_SESSION);
